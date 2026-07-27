@@ -1,0 +1,129 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 40px;
+}
+.main {
+  max-width: 95vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Debounce {
+  max-width: 95vw;
+  margin: 2rem;
+  text-align: center;
+}
+
+.Throttle {
+  max-width: 95vw;
+  margin: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.input {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.delayControls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+.slider {
+  flex: 1;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.panels {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.panel {
+  flex: 1;
+  min-width: 300px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  text-align: left;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.panel h2 {
+  font-size: 1rem;
+  margin: 0 0 0.5rem;
+}
+
+.count {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
+.values {
+  margin: 0;
+  font-size: 0.85rem;
+  overflow-wrap: break-word;
+}
+
+.trackerBox {
+  position: relative;
+  width: 420px;
+  height: 294px;
+  max-width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  text-align: left;
+  overflow: hidden;
+}
+
+.trackerBox h2 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.cursorTracker {
+  border-color: red;
+  cursor: crosshair;
+}
+
+.marker {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  border-radius: 50%;
+  background: #333;
+}
